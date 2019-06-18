@@ -1,0 +1,14 @@
+
+plugins {
+    id 'groovy'
+}
+
+dependencies {
+    compile "org.codehaus.groovy:groovy:$groovyVersion"
+
+    testCompile 'org.spockframework:spock-core:1.3-groovy-2.5'
+}
+
+ext {
+    groovyVersion = '2.5.7'
+}
